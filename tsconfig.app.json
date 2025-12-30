@@ -9,6 +9,12 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@page": ["./src/page"],
+      "@utils/*": ["./src/utils/*"],
+      "@schema/*": ["./src/schema/*"]
+    },
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",

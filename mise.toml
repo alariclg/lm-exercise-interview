@@ -1,4 +1,4 @@
 [tools]
-java = "adoptopenjdk-21"
+java = "temurin-21"
 node = "24"
 ruby = "3"
