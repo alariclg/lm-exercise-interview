@@ -11,7 +11,6 @@ export const Home = () => {
   return (
     <IonPage>
       <Header pageTitle="Home" />
-
       <IonContent className="ion-padding">
         <h1>Fetched data example</h1>
 
