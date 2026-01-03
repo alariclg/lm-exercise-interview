@@ -2,10 +2,15 @@
   "compilerOptions": {
     "module": "ESNext",
     "paths": {
+      "@api/*": ["./src/api/*"],
       "@components/*": ["./src/components/*"],
-      "@page/*": ["./src/page/*"],
+      "@models/*": ["./src/models/*"],
+      "@mutationOptions/*": ["./src/mutationOptions/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@queryOptions/*": ["./src/queryOptions/*"],
       "@utils/*": ["./src/utils/*"],
-      "@schema/*": ["./src/schema/*"]
+      "@schema/*": ["./src/schema/*"],
+      "@store/*": ["./src/store/*"]
     }
   },
   "files": [],
